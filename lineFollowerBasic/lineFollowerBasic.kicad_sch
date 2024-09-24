@@ -1,0 +1,87 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 751730cf-cec6-4b73-8a36-3b45eebd4e7c)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (text "Microcontroller\n" (at 31.115 87.63 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 21c3d6b7-ae36-4935-84b8-bca5e273d4e4)
+  )
+
+  (sheet (at 227.33 27.305) (size 38.735 53.975) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 79877780-7628-49ca-ae61-ece26bee93a3)
+    (property "Sheetname" "AdditionalComponents" (at 227.33 26.5934 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "additionalComponents.kicad_sch" (at 227.33 81.8646 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "lineFollowerBasic"
+        (path "/751730cf-cec6-4b73-8a36-3b45eebd4e7c" (page "5"))
+      )
+    )
+  )
+
+  (sheet (at 141.605 27.305) (size 37.465 53.975) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid a9133450-fd74-4167-87c2-16bc847bfd0a)
+    (property "Sheetname" "MotorControlSubsystem" (at 141.605 26.5934 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "motorControlSubsystem.kicad_sch" (at 141.605 81.8646 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "lineFollowerBasic"
+        (path "/751730cf-cec6-4b73-8a36-3b45eebd4e7c" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 98.425 27.305) (size 38.1 53.975) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid d8c85169-6cef-483c-8d82-b0cb9919f3af)
+    (property "Sheetname" "SensorArraySubsystem" (at 98.425 26.5934 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "sensorArraySubsystem.kicad_sch" (at 98.425 81.8646 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "lineFollowerBasic"
+        (path "/751730cf-cec6-4b73-8a36-3b45eebd4e7c" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 184.15 27.305) (size 39.37 53.975) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid f40ec953-ba2a-406c-9419-0b14e79f8823)
+    (property "Sheetname" "PowerManagement" (at 184.15 26.5934 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "powerManagement.kicad_sch" (at 184.15 81.8646 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "lineFollowerBasic"
+        (path "/751730cf-cec6-4b73-8a36-3b45eebd4e7c" (page "4"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
