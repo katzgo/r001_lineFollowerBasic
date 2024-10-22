@@ -1578,10 +1578,238 @@
 				)
 			)
 		)
+		(symbol "power:+5V"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 67.31 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1aa86c97-4041-41f7-a3f1-8e28fd6fb012")
+	)
+	(junction
+		(at 113.03 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1dc4442d-dd1a-4cf6-8f6b-3664dee908b1")
+	)
+	(junction
+		(at 123.19 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1f363418-1867-42a5-a5b0-94c5567a325e")
+	)
+	(junction
+		(at 173.99 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "442e7278-650b-4192-af9f-8ab0434cb41a")
+	)
+	(junction
+		(at 101.6 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "52b41c73-dad4-4d89-8f31-49a9afb64706")
+	)
+	(junction
+		(at 153.67 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5359fb4e-d4b0-4d2b-bb3a-0cdb7a75623e")
+	)
+	(junction
+		(at 184.15 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "56a6dd0c-cd3f-488a-8c37-a4668852961e")
+	)
+	(junction
+		(at 132.08 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5797a29d-c4a8-48da-b54a-5507cad0fcf2")
+	)
+	(junction
+		(at 121.92 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "62e5c94f-b9d5-48de-844b-cfb3cf7b1983")
+	)
+	(junction
+		(at 90.17 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "74ec13dc-1005-41bc-9222-26b747f034be")
+	)
+	(junction
+		(at 143.51 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8ae5680e-aa97-4302-b77e-11050ad6c212")
+	)
+	(junction
+		(at 113.03 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "91304e82-4a03-4149-b0ad-e0228c823688")
+	)
+	(junction
+		(at 55.88 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ae860ca4-4c95-455c-bed0-f674588e8440")
+	)
+	(junction
+		(at 163.83 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c96f5962-5fcf-4c99-bd91-67b62a631158")
+	)
+	(junction
+		(at 78.74 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cac6556e-0b35-417a-ae7b-3711ff89a760")
+	)
+	(junction
+		(at 111.76 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d334e337-757f-468a-8359-aa452afbca56")
+	)
+	(junction
+		(at 43.18 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dd58fcb2-9c3f-40fe-9177-ea03ab6c2720")
+	)
+	(junction
+		(at 194.31 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f4897717-fc28-4836-8a1d-4b6eac4a6c13")
 	)
 	(wire
 		(pts
-			(xy 129.54 52.07) (xy 129.54 67.31)
+			(xy 133.35 60.96) (xy 133.35 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1591,7 +1819,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 46.99) (xy 53.34 49.53)
+			(xy 55.88 55.88) (xy 55.88 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1601,7 +1829,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 106.68) (xy 144.78 127)
+			(xy 147.32 115.57) (xy 147.32 135.89)
 		)
 		(stroke
 			(width 0)
@@ -1611,7 +1839,17 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 123.19) (xy 116.84 127)
+			(xy 123.19 30.48) (xy 132.08 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d491625-70cc-4621-bc7d-443c4b92456b")
+	)
+	(wire
+		(pts
+			(xy 119.38 132.08) (xy 119.38 135.89)
 		)
 		(stroke
 			(width 0)
@@ -1621,7 +1859,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 53.34) (xy 111.76 67.31)
+			(xy 115.57 62.23) (xy 115.57 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1631,7 +1869,17 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 50.8) (xy 132.08 67.31)
+			(xy 184.15 30.48) (xy 194.31 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "153e73ac-69ff-45e7-a822-1da13d45b573")
+	)
+	(wire
+		(pts
+			(xy 135.89 59.69) (xy 135.89 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1641,7 +1889,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 92.71) (xy 106.68 123.19)
+			(xy 110.49 109.22) (xy 110.49 132.08)
 		)
 		(stroke
 			(width 0)
@@ -1651,7 +1899,17 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 104.14) (xy 147.32 127)
+			(xy 184.15 30.48) (xy 184.15 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17af125a-26c9-4425-902e-741681a07c3c")
+	)
+	(wire
+		(pts
+			(xy 149.86 113.03) (xy 149.86 135.89)
 		)
 		(stroke
 			(width 0)
@@ -1661,7 +1919,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 109.22) (xy 142.24 109.22)
+			(xy 120.65 118.11) (xy 144.78 118.11)
 		)
 		(stroke
 			(width 0)
@@ -1671,7 +1929,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 55.88) (xy 116.84 55.88)
+			(xy 113.03 64.77) (xy 120.65 64.77)
 		)
 		(stroke
 			(width 0)
@@ -1681,7 +1939,27 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 46.99) (xy 87.63 53.34)
+			(xy 55.88 30.48) (xy 55.88 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ef82516-be61-4b54-88b5-3d03b8407ac6")
+	)
+	(wire
+		(pts
+			(xy 173.99 30.48) (xy 184.15 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "209951a9-b154-4a35-b064-9e72854aa308")
+	)
+	(wire
+		(pts
+			(xy 90.17 55.88) (xy 90.17 62.23)
 		)
 		(stroke
 			(width 0)
@@ -1691,7 +1969,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 53.34) (xy 111.76 53.34)
+			(xy 90.17 62.23) (xy 115.57 62.23)
 		)
 		(stroke
 			(width 0)
@@ -1701,7 +1979,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 53.34) (xy 127 67.31)
+			(xy 130.81 62.23) (xy 130.81 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1711,7 +1989,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 46.99) (xy 64.77 50.8)
+			(xy 67.31 55.88) (xy 67.31 59.69)
 		)
 		(stroke
 			(width 0)
@@ -1721,7 +1999,27 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 46.99) (xy 171.45 50.8)
+			(xy 27.94 30.48) (xy 43.18 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b873709-c281-4205-9804-4143dc18b561")
+	)
+	(wire
+		(pts
+			(xy 121.92 82.55) (xy 121.92 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fef0bff-2ca2-482a-8531-46ffcda2ae7c")
+	)
+	(wire
+		(pts
+			(xy 173.99 55.88) (xy 173.99 59.69)
 		)
 		(stroke
 			(width 0)
@@ -1731,7 +2029,37 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 52.07) (xy 109.22 52.07)
+			(xy 123.19 30.48) (xy 123.19 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32c1e6d4-4fa7-44ba-ba69-08ee22bb8eb1")
+	)
+	(wire
+		(pts
+			(xy 67.31 30.48) (xy 78.74 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "375efba0-95ea-4663-881f-0cf9030c5e38")
+	)
+	(wire
+		(pts
+			(xy 173.99 40.64) (xy 173.99 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c6fd17a-3b24-43cb-8aaf-99d3affa26a3")
+	)
+	(wire
+		(pts
+			(xy 78.74 60.96) (xy 113.03 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1741,7 +2069,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 92.71) (xy 116.84 109.22)
+			(xy 120.65 109.22) (xy 120.65 118.11)
 		)
 		(stroke
 			(width 0)
@@ -1751,7 +2079,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 123.19) (xy 116.84 123.19)
+			(xy 110.49 132.08) (xy 119.38 132.08)
 		)
 		(stroke
 			(width 0)
@@ -1761,7 +2089,17 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 46.99) (xy 119.38 67.31)
+			(xy 194.31 30.48) (xy 194.31 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42b63dc6-5ef2-4cc2-bfd6-e224623a4fb0")
+	)
+	(wire
+		(pts
+			(xy 123.19 82.55) (xy 123.19 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1771,7 +2109,27 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 48.26) (xy 110.49 55.88)
+			(xy 121.92 30.48) (xy 123.19 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "473d2e78-7f03-4934-a937-87d1411dc19f")
+	)
+	(wire
+		(pts
+			(xy 27.94 96.52) (xy 27.94 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47c3259d-a9b1-4973-b704-c987fc2de9d8")
+	)
+	(wire
+		(pts
+			(xy 113.03 57.15) (xy 113.03 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1781,7 +2139,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 49.53) (xy 181.61 49.53)
+			(xy 138.43 58.42) (xy 184.15 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1791,7 +2149,27 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 46.99) (xy 140.97 54.61)
+			(xy 97.79 96.52) (xy 27.94 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4968a1a5-fd30-4073-a77e-58bb87c9e760")
+	)
+	(wire
+		(pts
+			(xy 143.51 30.48) (xy 153.67 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b453ae7-93c0-4b2e-8336-72473387316a")
+	)
+	(wire
+		(pts
+			(xy 143.51 55.88) (xy 143.51 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1801,7 +2179,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 101.6) (xy 149.86 127)
+			(xy 152.4 110.49) (xy 152.4 135.89)
 		)
 		(stroke
 			(width 0)
@@ -1811,7 +2189,17 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 46.99) (xy 76.2 52.07)
+			(xy 101.6 30.48) (xy 111.76 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52df471c-309f-4a08-a213-09edf6ed2e9a")
+	)
+	(wire
+		(pts
+			(xy 78.74 55.88) (xy 78.74 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1821,7 +2209,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 46.99) (xy 191.77 55.88)
+			(xy 194.31 55.88) (xy 194.31 64.77)
 		)
 		(stroke
 			(width 0)
@@ -1831,7 +2219,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 92.71) (xy 121.92 104.14)
+			(xy 125.73 109.22) (xy 125.73 113.03)
 		)
 		(stroke
 			(width 0)
@@ -1841,7 +2229,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 46.99) (xy 40.64 48.26)
+			(xy 43.18 55.88) (xy 43.18 57.15)
 		)
 		(stroke
 			(width 0)
@@ -1851,7 +2239,17 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 48.26) (xy 101.6 48.26)
+			(xy 101.6 30.48) (xy 101.6 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a5f0a05-3359-41cc-9aa7-429c490d1a7b")
+	)
+	(wire
+		(pts
+			(xy 43.18 57.15) (xy 105.41 57.15)
 		)
 		(stroke
 			(width 0)
@@ -1861,7 +2259,47 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 46.99) (xy 201.93 57.15)
+			(xy 153.67 30.48) (xy 153.67 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61411cbc-61cb-47b9-882b-8b570c9a4192")
+	)
+	(wire
+		(pts
+			(xy 113.03 64.77) (xy 113.03 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63b09d0a-cedc-43c2-8e2a-063d44e364d6")
+	)
+	(wire
+		(pts
+			(xy 90.17 30.48) (xy 101.6 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "651a08ac-e69a-481c-9f0a-a12e79774ef5")
+	)
+	(wire
+		(pts
+			(xy 43.18 40.64) (xy 43.18 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "667fdfb3-3409-4484-9555-1d2b0b0e1b20")
+	)
+	(wire
+		(pts
+			(xy 204.47 55.88) (xy 204.47 66.04)
 		)
 		(stroke
 			(width 0)
@@ -1871,7 +2309,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 46.99) (xy 151.13 53.34)
+			(xy 153.67 55.88) (xy 153.67 62.23)
 		)
 		(stroke
 			(width 0)
@@ -1881,17 +2319,17 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 52.07) (xy 109.22 67.31)
+			(xy 113.03 60.96) (xy 113.03 64.77)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6d1f323b-c22b-46bf-8f04-cab3551318be")
+		(uuid "69203639-22d1-4668-ae3e-ec3da0f10333")
 	)
 	(wire
 		(pts
-			(xy 140.97 54.61) (xy 124.46 54.61)
+			(xy 143.51 63.5) (xy 128.27 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1901,7 +2339,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 50.8) (xy 132.08 50.8)
+			(xy 173.99 59.69) (xy 135.89 59.69)
 		)
 		(stroke
 			(width 0)
@@ -1911,7 +2349,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 55.88) (xy 137.16 55.88)
+			(xy 194.31 64.77) (xy 140.97 64.77)
 		)
 		(stroke
 			(width 0)
@@ -1921,7 +2359,17 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 49.53) (xy 104.14 67.31)
+			(xy 78.74 30.48) (xy 78.74 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73244f61-242b-49cd-a778-a5e7a2de7f90")
+	)
+	(wire
+		(pts
+			(xy 107.95 58.42) (xy 107.95 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1931,7 +2379,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 55.88) (xy 116.84 67.31)
+			(xy 120.65 64.77) (xy 120.65 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1941,7 +2389,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 109.22) (xy 142.24 127)
+			(xy 144.78 118.11) (xy 144.78 135.89)
 		)
 		(stroke
 			(width 0)
@@ -1951,7 +2399,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 48.26) (xy 110.49 48.26)
+			(xy 111.76 57.15) (xy 113.03 57.15)
 		)
 		(stroke
 			(width 0)
@@ -1961,7 +2409,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 46.99) (xy 181.61 49.53)
+			(xy 184.15 55.88) (xy 184.15 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1971,7 +2419,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 48.26) (xy 101.6 67.31)
+			(xy 105.41 57.15) (xy 105.41 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1981,7 +2429,17 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 46.99) (xy 99.06 54.61)
+			(xy 194.31 30.48) (xy 204.47 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "811644cc-0678-4206-9805-5539a8e85316")
+	)
+	(wire
+		(pts
+			(xy 101.6 55.88) (xy 101.6 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1991,7 +2449,27 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 46.99) (xy 129.54 48.26)
+			(xy 143.51 30.48) (xy 143.51 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f734fdc-561f-4b37-8ce6-b788470fa0a0")
+	)
+	(wire
+		(pts
+			(xy 90.17 30.48) (xy 90.17 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9013dc71-3b68-44ce-ab86-44565c58b8e3")
+	)
+	(wire
+		(pts
+			(xy 132.08 55.88) (xy 132.08 57.15)
 		)
 		(stroke
 			(width 0)
@@ -2001,7 +2479,27 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 50.8) (xy 106.68 67.31)
+			(xy 67.31 30.48) (xy 67.31 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "949f0ba0-ddef-4767-b8fb-c966f2ea683b")
+	)
+	(wire
+		(pts
+			(xy 132.08 30.48) (xy 143.51 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94e22072-f535-48db-a1e8-10a43709aecb")
+	)
+	(wire
+		(pts
+			(xy 110.49 59.69) (xy 110.49 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2011,7 +2509,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 92.71) (xy 119.38 106.68)
+			(xy 123.19 109.22) (xy 123.19 115.57)
 		)
 		(stroke
 			(width 0)
@@ -2021,7 +2519,17 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 48.26) (xy 121.92 48.26)
+			(xy 163.83 30.48) (xy 173.99 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d2cfb9c-9a41-4fc7-9b32-fd4294fdb05a")
+	)
+	(wire
+		(pts
+			(xy 132.08 57.15) (xy 125.73 57.15)
 		)
 		(stroke
 			(width 0)
@@ -2031,7 +2539,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 53.34) (xy 127 53.34)
+			(xy 153.67 62.23) (xy 130.81 62.23)
 		)
 		(stroke
 			(width 0)
@@ -2041,7 +2549,27 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 104.14) (xy 147.32 104.14)
+			(xy 132.08 30.48) (xy 132.08 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a683c7b8-09bf-45e6-926e-5398ce7fc0e5")
+	)
+	(wire
+		(pts
+			(xy 78.74 30.48) (xy 90.17 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa14236f-f03a-4651-841e-e48057f3a419")
+	)
+	(wire
+		(pts
+			(xy 125.73 113.03) (xy 149.86 113.03)
 		)
 		(stroke
 			(width 0)
@@ -2051,7 +2579,27 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 52.07) (xy 129.54 52.07)
+			(xy 204.47 40.64) (xy 204.47 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b18208dd-42ed-4304-a997-1043323226d6")
+	)
+	(wire
+		(pts
+			(xy 111.76 30.48) (xy 111.76 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5ce0632-6c83-41c3-be60-dd1b070db796")
+	)
+	(wire
+		(pts
+			(xy 163.83 60.96) (xy 133.35 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2061,7 +2609,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 48.26) (xy 121.92 67.31)
+			(xy 125.73 57.15) (xy 125.73 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2071,7 +2619,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 49.53) (xy 104.14 49.53)
+			(xy 55.88 58.42) (xy 107.95 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2081,7 +2629,17 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 54.61) (xy 124.46 67.31)
+			(xy 55.88 30.48) (xy 67.31 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6750e8c-fedf-4084-bc69-180137e79614")
+	)
+	(wire
+		(pts
+			(xy 128.27 63.5) (xy 128.27 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2091,7 +2649,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 67.31) (xy 134.62 49.53)
+			(xy 138.43 83.82) (xy 138.43 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2101,7 +2659,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 57.15) (xy 139.7 57.15)
+			(xy 204.47 66.04) (xy 143.51 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2111,7 +2669,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 92.71) (xy 124.46 101.6)
+			(xy 128.27 109.22) (xy 128.27 110.49)
 		)
 		(stroke
 			(width 0)
@@ -2121,7 +2679,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 55.88) (xy 137.16 67.31)
+			(xy 140.97 64.77) (xy 140.97 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2131,7 +2689,17 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 50.8) (xy 106.68 50.8)
+			(xy 43.18 30.48) (xy 55.88 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7b4ca4d-ab42-4a16-bff2-d588d2bce4b0")
+	)
+	(wire
+		(pts
+			(xy 67.31 59.69) (xy 110.49 59.69)
 		)
 		(stroke
 			(width 0)
@@ -2141,7 +2709,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 57.15) (xy 139.7 67.31)
+			(xy 143.51 66.04) (xy 143.51 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2151,7 +2719,37 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 106.68) (xy 144.78 106.68)
+			(xy 111.76 30.48) (xy 121.92 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de489198-601a-412b-8a1c-10202b5b1f1d")
+	)
+	(wire
+		(pts
+			(xy 123.19 82.55) (xy 121.92 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2eee62c-ca07-4707-9f69-e1f184866051")
+	)
+	(wire
+		(pts
+			(xy 163.83 30.48) (xy 163.83 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8543231-1bbf-487e-bbaa-a9987feb21b8")
+	)
+	(wire
+		(pts
+			(xy 123.19 115.57) (xy 147.32 115.57)
 		)
 		(stroke
 			(width 0)
@@ -2161,7 +2759,17 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 46.99) (xy 161.29 52.07)
+			(xy 121.92 30.48) (xy 121.92 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed110b44-2349-4f53-be92-2b373b4c6591")
+	)
+	(wire
+		(pts
+			(xy 163.83 55.88) (xy 163.83 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2171,7 +2779,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 54.61) (xy 114.3 54.61)
+			(xy 101.6 63.5) (xy 118.11 63.5)
 		)
 		(stroke
 			(width 0)
@@ -2181,7 +2789,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 101.6) (xy 149.86 101.6)
+			(xy 128.27 110.49) (xy 152.4 110.49)
 		)
 		(stroke
 			(width 0)
@@ -2191,7 +2799,17 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 46.99) (xy 109.22 48.26)
+			(xy 153.67 30.48) (xy 163.83 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8e400bc-df11-4d25-abb3-4a6dc84f9c90")
+	)
+	(wire
+		(pts
+			(xy 111.76 55.88) (xy 111.76 57.15)
 		)
 		(stroke
 			(width 0)
@@ -2201,7 +2819,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 54.61) (xy 114.3 67.31)
+			(xy 118.11 63.5) (xy 118.11 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2211,7 +2829,7 @@
 	)
 	(symbol
 		(lib_id "Sensor_Proximity:QRE1113")
-		(at 73.66 39.37 270)
+		(at 76.2 48.26 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2220,7 +2838,7 @@
 		(fields_autoplaced yes)
 		(uuid "0aa402ac-16f0-4233-8fa7-ffd61b13d9fa")
 		(property "Reference" "S4"
-			(at 78.74 38.0999 90)
+			(at 81.28 46.9899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2229,7 +2847,7 @@
 			)
 		)
 		(property "Value" "QRE1113"
-			(at 78.74 40.6399 90)
+			(at 81.28 49.5299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2239,7 +2857,7 @@
 			)
 		)
 		(property "Footprint" "OptoDevice:OnSemi_CASE100AQ"
-			(at 68.58 39.37 0)
+			(at 71.12 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2248,7 +2866,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.onsemi.com/pub/Collateral/QRE1113-D.PDF"
-			(at 76.2 39.37 0)
+			(at 78.74 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2257,7 +2875,7 @@
 			)
 		)
 		(property "Description" "Miniature Reflective Optical Object Sensor, DIP-like THT-package"
-			(at 73.66 39.37 0)
+			(at 76.2 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2287,8 +2905,74 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 123.19 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "111972c0-6c29-426f-8fdc-e43ce690c7bd")
+		(property "Reference" "#PWR035"
+			(at 123.19 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 123.19 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.19 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 123.19 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f6f13621-6ffd-441f-b7f4-959d0052d476")
+		)
+		(instances
+			(project ""
+				(path "/751730cf-cec6-4b73-8a36-3b45eebd4e7c/d8c85169-6cef-483c-8d82-b0cb9919f3af"
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Sensor_Proximity:QRE1113")
-		(at 96.52 39.37 270)
+		(at 99.06 48.26 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2297,7 +2981,7 @@
 		(fields_autoplaced yes)
 		(uuid "2cc9fbb9-847c-4fd1-b9be-0a834cae5a0e")
 		(property "Reference" "S6"
-			(at 101.6 38.0999 90)
+			(at 104.14 46.9899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2306,7 +2990,7 @@
 			)
 		)
 		(property "Value" "QRE1113"
-			(at 101.6 40.6399 90)
+			(at 104.14 49.5299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2316,7 +3000,7 @@
 			)
 		)
 		(property "Footprint" "OptoDevice:OnSemi_CASE100AQ"
-			(at 91.44 39.37 0)
+			(at 93.98 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2325,7 +3009,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.onsemi.com/pub/Collateral/QRE1113-D.PDF"
-			(at 99.06 39.37 0)
+			(at 101.6 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2334,7 +3018,7 @@
 			)
 		)
 		(property "Description" "Miniature Reflective Optical Object Sensor, DIP-like THT-package"
-			(at 96.52 39.37 0)
+			(at 99.06 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2365,7 +3049,7 @@
 	)
 	(symbol
 		(lib_id "Sensor_Proximity:QRE1113")
-		(at 148.59 39.37 270)
+		(at 151.13 48.26 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2374,7 +3058,7 @@
 		(fields_autoplaced yes)
 		(uuid "2f558cba-6d5e-4dcf-81f1-d9eb1f2e309a")
 		(property "Reference" "S11"
-			(at 153.67 38.0999 90)
+			(at 156.21 46.9899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2383,7 +3067,7 @@
 			)
 		)
 		(property "Value" "QRE1113"
-			(at 153.67 40.6399 90)
+			(at 156.21 49.5299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2393,7 +3077,7 @@
 			)
 		)
 		(property "Footprint" "OptoDevice:OnSemi_CASE100AQ"
-			(at 143.51 39.37 0)
+			(at 146.05 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2402,7 +3086,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.onsemi.com/pub/Collateral/QRE1113-D.PDF"
-			(at 151.13 39.37 0)
+			(at 153.67 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2411,7 +3095,7 @@
 			)
 		)
 		(property "Description" "Miniature Reflective Optical Object Sensor, DIP-like THT-package"
-			(at 148.59 39.37 0)
+			(at 151.13 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2442,7 +3126,7 @@
 	)
 	(symbol
 		(lib_id "Sensor_Proximity:QRE1113")
-		(at 138.43 39.37 270)
+		(at 140.97 48.26 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2451,7 +3135,7 @@
 		(fields_autoplaced yes)
 		(uuid "30d1c57f-7a63-4d2b-9cc2-2a39f33e2338")
 		(property "Reference" "S10"
-			(at 143.51 38.0999 90)
+			(at 146.05 46.9899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2460,7 +3144,7 @@
 			)
 		)
 		(property "Value" "QRE1113"
-			(at 143.51 40.6399 90)
+			(at 146.05 49.5299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2470,7 +3154,7 @@
 			)
 		)
 		(property "Footprint" "OptoDevice:OnSemi_CASE100AQ"
-			(at 133.35 39.37 0)
+			(at 135.89 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2479,7 +3163,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.onsemi.com/pub/Collateral/QRE1113-D.PDF"
-			(at 140.97 39.37 0)
+			(at 143.51 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2488,7 +3172,7 @@
 			)
 		)
 		(property "Description" "Miniature Reflective Optical Object Sensor, DIP-like THT-package"
-			(at 138.43 39.37 0)
+			(at 140.97 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2519,7 +3203,7 @@
 	)
 	(symbol
 		(lib_id "MCU_Microchip_ATmega:ATmega328-P")
-		(at 124.46 142.24 90)
+		(at 127 151.13 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2528,7 +3212,7 @@
 		(fields_autoplaced yes)
 		(uuid "406a613c-7056-4d3d-bc24-efc80819f10d")
 		(property "Reference" "U4"
-			(at 168.91 136.7438 90)
+			(at 171.45 145.6338 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2536,7 +3220,7 @@
 			)
 		)
 		(property "Value" "ATmega328-P"
-			(at 168.91 139.2838 90)
+			(at 171.45 148.1738 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2544,7 +3228,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-28_W7.62mm"
-			(at 124.46 142.24 0)
+			(at 127 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2554,7 +3238,7 @@
 			)
 		)
 		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega328_P%20AVR%20MCU%20with%20picoPower%20Technology%20Data%20Sheet%2040001984A.pdf"
-			(at 124.46 142.24 0)
+			(at 127 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2563,7 +3247,7 @@
 			)
 		)
 		(property "Description" "20MHz, 32kB Flash, 2kB SRAM, 1kB EEPROM, DIP-28"
-			(at 124.46 142.24 0)
+			(at 127 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2666,7 +3350,7 @@
 	)
 	(symbol
 		(lib_id "Sensor_Proximity:QRE1113")
-		(at 62.23 39.37 270)
+		(at 64.77 48.26 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2675,7 +3359,7 @@
 		(fields_autoplaced yes)
 		(uuid "4f1b06a0-bf06-4ee3-8ff8-d50d68953801")
 		(property "Reference" "S3"
-			(at 67.31 38.0999 90)
+			(at 69.85 46.9899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2684,7 +3368,7 @@
 			)
 		)
 		(property "Value" "QRE1113"
-			(at 67.31 40.6399 90)
+			(at 69.85 49.5299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2694,7 +3378,7 @@
 			)
 		)
 		(property "Footprint" "OptoDevice:OnSemi_CASE100AQ"
-			(at 57.15 39.37 0)
+			(at 59.69 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2703,7 +3387,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.onsemi.com/pub/Collateral/QRE1113-D.PDF"
-			(at 64.77 39.37 0)
+			(at 67.31 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2712,7 +3396,7 @@
 			)
 		)
 		(property "Description" "Miniature Reflective Optical Object Sensor, DIP-like THT-package"
-			(at 62.23 39.37 0)
+			(at 64.77 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2743,7 +3427,7 @@
 	)
 	(symbol
 		(lib_id "Sensor_Proximity:QRE1113")
-		(at 38.1 39.37 270)
+		(at 40.64 48.26 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2752,7 +3436,7 @@
 		(fields_autoplaced yes)
 		(uuid "546405d5-1ecc-4305-a201-63329d342011")
 		(property "Reference" "S1"
-			(at 43.18 38.0999 90)
+			(at 45.72 46.9899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2761,7 +3445,7 @@
 			)
 		)
 		(property "Value" "QRE1113"
-			(at 43.18 40.6399 90)
+			(at 45.72 49.5299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2771,7 +3455,7 @@
 			)
 		)
 		(property "Footprint" "OptoDevice:OnSemi_CASE100AQ"
-			(at 33.02 39.37 0)
+			(at 35.56 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2780,7 +3464,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.onsemi.com/pub/Collateral/QRE1113-D.PDF"
-			(at 40.64 39.37 0)
+			(at 43.18 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2789,7 +3473,7 @@
 			)
 		)
 		(property "Description" "Miniature Reflective Optical Object Sensor, DIP-like THT-package"
-			(at 38.1 39.37 0)
+			(at 40.64 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2820,7 +3504,7 @@
 	)
 	(symbol
 		(lib_id "Sensor_Proximity:QRE1113")
-		(at 50.8 39.37 270)
+		(at 53.34 48.26 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2829,7 +3513,7 @@
 		(fields_autoplaced yes)
 		(uuid "574f1429-5526-4944-975d-7777a583b4a0")
 		(property "Reference" "S2"
-			(at 55.88 38.0999 90)
+			(at 58.42 46.9899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2838,7 +3522,7 @@
 			)
 		)
 		(property "Value" "QRE1113"
-			(at 55.88 40.6399 90)
+			(at 58.42 49.5299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2848,7 +3532,7 @@
 			)
 		)
 		(property "Footprint" "OptoDevice:OnSemi_CASE100AQ"
-			(at 45.72 39.37 0)
+			(at 48.26 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2857,7 +3541,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.onsemi.com/pub/Collateral/QRE1113-D.PDF"
-			(at 53.34 39.37 0)
+			(at 55.88 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2866,7 +3550,7 @@
 			)
 		)
 		(property "Description" "Miniature Reflective Optical Object Sensor, DIP-like THT-package"
-			(at 50.8 39.37 0)
+			(at 53.34 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2897,7 +3581,7 @@
 	)
 	(symbol
 		(lib_id "Sensor_Proximity:QRE1113")
-		(at 116.84 39.37 270)
+		(at 119.38 48.26 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2906,7 +3590,7 @@
 		(fields_autoplaced yes)
 		(uuid "5e645048-2fb6-4ac0-ade3-64e2d33d4603")
 		(property "Reference" "S8"
-			(at 121.92 38.0999 90)
+			(at 124.46 46.9899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2915,7 +3599,7 @@
 			)
 		)
 		(property "Value" "QRE1113"
-			(at 121.92 40.6399 90)
+			(at 124.46 49.5299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2925,7 +3609,7 @@
 			)
 		)
 		(property "Footprint" "OptoDevice:OnSemi_CASE100AQ"
-			(at 111.76 39.37 0)
+			(at 114.3 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2934,7 +3618,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.onsemi.com/pub/Collateral/QRE1113-D.PDF"
-			(at 119.38 39.37 0)
+			(at 121.92 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2943,7 +3627,7 @@
 			)
 		)
 		(property "Description" "Miniature Reflective Optical Object Sensor, DIP-like THT-package"
-			(at 116.84 39.37 0)
+			(at 119.38 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2974,7 +3658,7 @@
 	)
 	(symbol
 		(lib_id "Sensor_Proximity:QRE1113")
-		(at 199.39 39.37 270)
+		(at 201.93 48.26 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2983,7 +3667,7 @@
 		(fields_autoplaced yes)
 		(uuid "64422a1c-fad4-40f6-ac92-a8e19f925afe")
 		(property "Reference" "S16"
-			(at 204.47 38.0999 90)
+			(at 207.01 46.9899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2992,7 +3676,7 @@
 			)
 		)
 		(property "Value" "QRE1113"
-			(at 204.47 40.6399 90)
+			(at 207.01 49.5299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3002,7 +3686,7 @@
 			)
 		)
 		(property "Footprint" "OptoDevice:OnSemi_CASE100AQ"
-			(at 194.31 39.37 0)
+			(at 196.85 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3011,7 +3695,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.onsemi.com/pub/Collateral/QRE1113-D.PDF"
-			(at 201.93 39.37 0)
+			(at 204.47 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3020,7 +3704,7 @@
 			)
 		)
 		(property "Description" "Miniature Reflective Optical Object Sensor, DIP-like THT-package"
-			(at 199.39 39.37 0)
+			(at 201.93 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3051,7 +3735,7 @@
 	)
 	(symbol
 		(lib_id "Sensor_Proximity:QRE1113")
-		(at 179.07 39.37 270)
+		(at 181.61 48.26 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3060,7 +3744,7 @@
 		(fields_autoplaced yes)
 		(uuid "6cf6f1c3-8894-4b72-805f-4e9be56cf70d")
 		(property "Reference" "S14"
-			(at 184.15 38.0999 90)
+			(at 186.69 46.9899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3069,7 +3753,7 @@
 			)
 		)
 		(property "Value" "QRE1113"
-			(at 184.15 40.6399 90)
+			(at 186.69 49.5299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3079,7 +3763,7 @@
 			)
 		)
 		(property "Footprint" "OptoDevice:OnSemi_CASE100AQ"
-			(at 173.99 39.37 0)
+			(at 176.53 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3088,7 +3772,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.onsemi.com/pub/Collateral/QRE1113-D.PDF"
-			(at 181.61 39.37 0)
+			(at 184.15 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3097,7 +3781,7 @@
 			)
 		)
 		(property "Description" "Miniature Reflective Optical Object Sensor, DIP-like THT-package"
-			(at 179.07 39.37 0)
+			(at 181.61 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3128,7 +3812,7 @@
 	)
 	(symbol
 		(lib_id "Sensor_Proximity:QRE1113")
-		(at 106.68 39.37 270)
+		(at 109.22 48.26 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3137,7 +3821,7 @@
 		(fields_autoplaced yes)
 		(uuid "6ee17efc-b7e2-4ff0-8933-809644b69f79")
 		(property "Reference" "S7"
-			(at 111.76 38.0999 90)
+			(at 114.3 46.9899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3146,7 +3830,7 @@
 			)
 		)
 		(property "Value" "QRE1113"
-			(at 111.76 40.6399 90)
+			(at 114.3 49.5299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3156,7 +3840,7 @@
 			)
 		)
 		(property "Footprint" "OptoDevice:OnSemi_CASE100AQ"
-			(at 101.6 39.37 0)
+			(at 104.14 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3165,7 +3849,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.onsemi.com/pub/Collateral/QRE1113-D.PDF"
-			(at 109.22 39.37 0)
+			(at 111.76 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3174,7 +3858,7 @@
 			)
 		)
 		(property "Description" "Miniature Reflective Optical Object Sensor, DIP-like THT-package"
-			(at 106.68 39.37 0)
+			(at 109.22 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3205,7 +3889,7 @@
 	)
 	(symbol
 		(lib_id "Sensor_Proximity:QRE1113")
-		(at 158.75 39.37 270)
+		(at 161.29 48.26 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3214,7 +3898,7 @@
 		(fields_autoplaced yes)
 		(uuid "724b9c30-2405-4e30-a110-c687b9bd28a4")
 		(property "Reference" "S12"
-			(at 163.83 38.0999 90)
+			(at 166.37 46.9899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3223,7 +3907,7 @@
 			)
 		)
 		(property "Value" "QRE1113"
-			(at 163.83 40.6399 90)
+			(at 166.37 49.5299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3233,7 +3917,7 @@
 			)
 		)
 		(property "Footprint" "OptoDevice:OnSemi_CASE100AQ"
-			(at 153.67 39.37 0)
+			(at 156.21 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3242,7 +3926,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.onsemi.com/pub/Collateral/QRE1113-D.PDF"
-			(at 161.29 39.37 0)
+			(at 163.83 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3251,7 +3935,7 @@
 			)
 		)
 		(property "Description" "Miniature Reflective Optical Object Sensor, DIP-like THT-package"
-			(at 158.75 39.37 0)
+			(at 161.29 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3282,7 +3966,7 @@
 	)
 	(symbol
 		(lib_id "74xx:CD74HC4067M")
-		(at 119.38 80.01 90)
+		(at 123.19 96.52 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3291,7 +3975,7 @@
 		(fields_autoplaced yes)
 		(uuid "76ac6e90-aefe-40bb-8513-c12c9efde0c8")
 		(property "Reference" "U3"
-			(at 152.4 74.5138 90)
+			(at 156.21 91.0238 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3299,7 +3983,7 @@
 			)
 		)
 		(property "Value" "CD74HC4067M"
-			(at 152.4 77.0538 90)
+			(at 156.21 93.5638 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3307,7 +3991,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm"
-			(at 144.78 57.15 0)
+			(at 148.59 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3317,7 +4001,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/cd74hc4067.pdf"
-			(at 97.79 88.9 0)
+			(at 101.6 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3326,7 +4010,7 @@
 			)
 		)
 		(property "Description" "High-Speed CMOS Logic 16-Channel Analog Multiplexer/Demultiplexer, SOIC-24"
-			(at 119.38 80.01 0)
+			(at 123.19 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3417,7 +4101,7 @@
 	)
 	(symbol
 		(lib_id "Sensor_Proximity:QRE1113")
-		(at 189.23 39.37 270)
+		(at 191.77 48.26 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3426,7 +4110,7 @@
 		(fields_autoplaced yes)
 		(uuid "78cebe60-83b4-48d4-8274-d2534f321481")
 		(property "Reference" "S15"
-			(at 194.31 38.0999 90)
+			(at 196.85 46.9899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3435,7 +4119,7 @@
 			)
 		)
 		(property "Value" "QRE1113"
-			(at 194.31 40.6399 90)
+			(at 196.85 49.5299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3445,7 +4129,7 @@
 			)
 		)
 		(property "Footprint" "OptoDevice:OnSemi_CASE100AQ"
-			(at 184.15 39.37 0)
+			(at 186.69 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3454,7 +4138,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.onsemi.com/pub/Collateral/QRE1113-D.PDF"
-			(at 191.77 39.37 0)
+			(at 194.31 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3463,7 +4147,7 @@
 			)
 		)
 		(property "Description" "Miniature Reflective Optical Object Sensor, DIP-like THT-package"
-			(at 189.23 39.37 0)
+			(at 191.77 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3494,7 +4178,7 @@
 	)
 	(symbol
 		(lib_id "Sensor_Proximity:QRE1113")
-		(at 127 39.37 270)
+		(at 129.54 48.26 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3503,7 +4187,7 @@
 		(fields_autoplaced yes)
 		(uuid "9cf176e0-a035-44e7-a2bb-d0030c622d2d")
 		(property "Reference" "S9"
-			(at 132.08 38.0999 90)
+			(at 134.62 46.9899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3512,7 +4196,7 @@
 			)
 		)
 		(property "Value" "QRE1113"
-			(at 132.08 40.6399 90)
+			(at 134.62 49.5299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3522,7 +4206,7 @@
 			)
 		)
 		(property "Footprint" "OptoDevice:OnSemi_CASE100AQ"
-			(at 121.92 39.37 0)
+			(at 124.46 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3531,7 +4215,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.onsemi.com/pub/Collateral/QRE1113-D.PDF"
-			(at 129.54 39.37 0)
+			(at 132.08 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3540,7 +4224,7 @@
 			)
 		)
 		(property "Description" "Miniature Reflective Optical Object Sensor, DIP-like THT-package"
-			(at 127 39.37 0)
+			(at 129.54 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3571,7 +4255,7 @@
 	)
 	(symbol
 		(lib_id "Sensor_Proximity:QRE1113")
-		(at 85.09 39.37 270)
+		(at 87.63 48.26 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3580,7 +4264,7 @@
 		(fields_autoplaced yes)
 		(uuid "9f59d94f-9824-4731-8bfb-9d665385fdd6")
 		(property "Reference" "S5"
-			(at 90.17 38.0999 90)
+			(at 92.71 46.9899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3589,7 +4273,7 @@
 			)
 		)
 		(property "Value" "QRE1113"
-			(at 90.17 40.6399 90)
+			(at 92.71 49.5299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3599,7 +4283,7 @@
 			)
 		)
 		(property "Footprint" "OptoDevice:OnSemi_CASE100AQ"
-			(at 80.01 39.37 0)
+			(at 82.55 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3608,7 +4292,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.onsemi.com/pub/Collateral/QRE1113-D.PDF"
-			(at 87.63 39.37 0)
+			(at 90.17 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3617,7 +4301,7 @@
 			)
 		)
 		(property "Description" "Miniature Reflective Optical Object Sensor, DIP-like THT-package"
-			(at 85.09 39.37 0)
+			(at 87.63 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3648,7 +4332,7 @@
 	)
 	(symbol
 		(lib_id "Sensor_Proximity:QRE1113")
-		(at 168.91 39.37 270)
+		(at 171.45 48.26 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3657,7 +4341,7 @@
 		(fields_autoplaced yes)
 		(uuid "c76bd0d1-5258-4409-ac4c-6ac9ebae8108")
 		(property "Reference" "S13"
-			(at 173.99 38.0999 90)
+			(at 176.53 46.9899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3666,7 +4350,7 @@
 			)
 		)
 		(property "Value" "QRE1113"
-			(at 173.99 40.6399 90)
+			(at 176.53 49.5299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3676,7 +4360,7 @@
 			)
 		)
 		(property "Footprint" "OptoDevice:OnSemi_CASE100AQ"
-			(at 163.83 39.37 0)
+			(at 166.37 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3685,7 +4369,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.onsemi.com/pub/Collateral/QRE1113-D.PDF"
-			(at 171.45 39.37 0)
+			(at 173.99 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3694,7 +4378,7 @@
 			)
 		)
 		(property "Description" "Miniature Reflective Optical Object Sensor, DIP-like THT-package"
-			(at 168.91 39.37 0)
+			(at 171.45 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
