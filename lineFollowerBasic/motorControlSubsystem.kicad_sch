@@ -1107,190 +1107,6 @@
 				)
 			)
 		)
-		(symbol "Motor:Motor_DC"
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "M"
-				(at 2.54 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Motor_DC"
-				(at 2.54 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 -2.286 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 -2.286 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "DC Motor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "DC Motor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "PinHeader*P2.54mm* TerminalBlock*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Motor_DC_0_0"
-				(polyline
-					(pts
-						(xy -1.27 -3.302) (xy -1.27 0.508) (xy 0 -2.032) (xy 1.27 0.508) (xy 1.27 -3.302)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Motor_DC_0_1"
-				(circle
-					(center 0 -1.524)
-					(radius 3.2512)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -7.62) (xy 0 -7.112)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -4.7752) (xy 0 -5.1816)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.7272) (xy 0 2.0828)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.032) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Motor_DC_1_1"
-				(pin passive line
-					(at 0 5.08 270)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Sensor_Energy:INA219BxD"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3108,6 +2924,16 @@
 	)
 	(wire
 		(pts
+			(xy 245.11 86.36) (xy 262.89 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb5ca073-3faa-4fbf-8618-41d211e081e9")
+	)
+	(wire
+		(pts
 			(xy 138.43 46.99) (xy 160.02 46.99)
 		)
 		(stroke
@@ -3115,6 +2941,16 @@
 			(type default)
 		)
 		(uuid "bc2b2dd5-a6a8-459d-8643-a1de6b1e0289")
+	)
+	(wire
+		(pts
+			(xy 245.11 99.06) (xy 262.89 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc604561-ae2f-4a0e-b1a5-7d3d5efad7bd")
 	)
 	(wire
 		(pts
@@ -3576,6 +3412,12 @@
 					(unit 1)
 				)
 			)
+			(project "motorControlSubsystem"
+				(path "/818e58fd-44df-4509-b8e7-a1b638858053"
+					(reference "Cc8")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3644,6 +3486,12 @@
 					(unit 1)
 				)
 			)
+			(project "motorControlSubsystem"
+				(path "/818e58fd-44df-4509-b8e7-a1b638858053"
+					(reference "R6")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3665,12 +3513,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+15"
-			(at 209.55 26.67 0)
+		(property "Value" "+5"
+			(at 212.09 30.4799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -3710,6 +3559,12 @@
 					(unit 1)
 				)
 			)
+			(project "motorControlSubsystem"
+				(path "/818e58fd-44df-4509-b8e7-a1b638858053"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3731,12 +3586,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+15"
-			(at 143.51 97.79 0)
+		(property "Value" "+5"
+			(at 146.05 101.5999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -3773,6 +3629,12 @@
 			(project "lineFollowerBasic"
 				(path "/751730cf-cec6-4b73-8a36-3b45eebd4e7c/a9133450-fd74-4167-87c2-16bc847bfd0a"
 					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+			(project "motorControlSubsystem"
+				(path "/818e58fd-44df-4509-b8e7-a1b638858053"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -3852,6 +3714,12 @@
 					(unit 1)
 				)
 			)
+			(project "motorControlSubsystem"
+				(path "/818e58fd-44df-4509-b8e7-a1b638858053"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3915,6 +3783,12 @@
 			(project "lineFollowerBasic"
 				(path "/751730cf-cec6-4b73-8a36-3b45eebd4e7c/a9133450-fd74-4167-87c2-16bc847bfd0a"
 					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+			(project "motorControlSubsystem"
+				(path "/818e58fd-44df-4509-b8e7-a1b638858053"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -3983,6 +3857,12 @@
 			(project "lineFollowerBasic"
 				(path "/751730cf-cec6-4b73-8a36-3b45eebd4e7c/a9133450-fd74-4167-87c2-16bc847bfd0a"
 					(reference "R6")
+					(unit 1)
+				)
+			)
+			(project "motorControlSubsystem"
+				(path "/818e58fd-44df-4509-b8e7-a1b638858053"
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -4093,6 +3973,12 @@
 					(unit 1)
 				)
 			)
+			(project "motorControlSubsystem"
+				(path "/818e58fd-44df-4509-b8e7-a1b638858053"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4114,7 +4000,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1 uF"
+		(property "Value" "0.1 uF"
 			(at 163.83 51.1809 0)
 			(effects
 				(font
@@ -4163,73 +4049,9 @@
 					(unit 1)
 				)
 			)
-		)
-	)
-	(symbol
-		(lib_id "Motor:Motor_DC")
-		(at 245.11 91.44 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "31675e76-6380-4ce6-a7bc-7ed9e61b53d1")
-		(property "Reference" "M1"
-			(at 250.19 92.7099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Motor_DC"
-			(at 250.19 95.2499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 245.11 93.726 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 245.11 93.726 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "DC Motor"
-			(at 245.11 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "af460899-c83f-4412-ad50-e7593c75b1ba")
-		)
-		(pin "2"
-			(uuid "d632234f-ceeb-4073-a48c-bbc3cafe232b")
-		)
-		(instances
-			(project "lineFollowerBasic"
-				(path "/751730cf-cec6-4b73-8a36-3b45eebd4e7c/a9133450-fd74-4167-87c2-16bc847bfd0a"
-					(reference "M1")
+			(project "motorControlSubsystem"
+				(path "/818e58fd-44df-4509-b8e7-a1b638858053"
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -4303,6 +4125,12 @@
 					(unit 1)
 				)
 			)
+			(project "motorControlSubsystem"
+				(path "/818e58fd-44df-4509-b8e7-a1b638858053"
+					(reference "C7")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4366,6 +4194,12 @@
 			(project "lineFollowerBasic"
 				(path "/751730cf-cec6-4b73-8a36-3b45eebd4e7c/a9133450-fd74-4167-87c2-16bc847bfd0a"
 					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+			(project "motorControlSubsystem"
+				(path "/818e58fd-44df-4509-b8e7-a1b638858053"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -4435,6 +4269,12 @@
 					(unit 1)
 				)
 			)
+			(project "motorControlSubsystem"
+				(path "/818e58fd-44df-4509-b8e7-a1b638858053"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4456,7 +4296,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1 uF"
+		(property "Value" "0.1 uF"
 			(at 162.56 123.5709 0)
 			(effects
 				(font
@@ -4502,6 +4342,12 @@
 			(project "lineFollowerBasic"
 				(path "/751730cf-cec6-4b73-8a36-3b45eebd4e7c/a9133450-fd74-4167-87c2-16bc847bfd0a"
 					(reference "C7")
+					(unit 1)
+				)
+			)
+			(project "motorControlSubsystem"
+				(path "/818e58fd-44df-4509-b8e7-a1b638858053"
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -4571,6 +4417,12 @@
 					(unit 1)
 				)
 			)
+			(project "motorControlSubsystem"
+				(path "/818e58fd-44df-4509-b8e7-a1b638858053"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4637,6 +4489,12 @@
 					(unit 1)
 				)
 			)
+			(project "motorControlSubsystem"
+				(path "/818e58fd-44df-4509-b8e7-a1b638858053"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4700,6 +4558,12 @@
 			(project "lineFollowerBasic"
 				(path "/751730cf-cec6-4b73-8a36-3b45eebd4e7c/a9133450-fd74-4167-87c2-16bc847bfd0a"
 					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+			(project "motorControlSubsystem"
+				(path "/818e58fd-44df-4509-b8e7-a1b638858053"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -4773,6 +4637,12 @@
 					(unit 1)
 				)
 			)
+			(project "motorControlSubsystem"
+				(path "/818e58fd-44df-4509-b8e7-a1b638858053"
+					(reference "C2")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4838,6 +4708,12 @@
 			(project "lineFollowerBasic"
 				(path "/751730cf-cec6-4b73-8a36-3b45eebd4e7c/a9133450-fd74-4167-87c2-16bc847bfd0a"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+			(project "motorControlSubsystem"
+				(path "/818e58fd-44df-4509-b8e7-a1b638858053"
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -4909,6 +4785,12 @@
 					(unit 1)
 				)
 			)
+			(project "motorControlSubsystem"
+				(path "/818e58fd-44df-4509-b8e7-a1b638858053"
+					(reference "R5")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4930,12 +4812,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+15"
-			(at 208.28 97.79 0)
+		(property "Value" "+5"
+			(at 210.82 101.5999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -4972,6 +4855,12 @@
 			(project "lineFollowerBasic"
 				(path "/751730cf-cec6-4b73-8a36-3b45eebd4e7c/a9133450-fd74-4167-87c2-16bc847bfd0a"
 					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+			(project "motorControlSubsystem"
+				(path "/818e58fd-44df-4509-b8e7-a1b638858053"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -5051,6 +4940,12 @@
 					(unit 1)
 				)
 			)
+			(project "motorControlSubsystem"
+				(path "/818e58fd-44df-4509-b8e7-a1b638858053"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5114,6 +5009,12 @@
 			(project "lineFollowerBasic"
 				(path "/751730cf-cec6-4b73-8a36-3b45eebd4e7c/a9133450-fd74-4167-87c2-16bc847bfd0a"
 					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+			(project "motorControlSubsystem"
+				(path "/818e58fd-44df-4509-b8e7-a1b638858053"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -5182,6 +5083,12 @@
 					(unit 1)
 				)
 			)
+			(project "motorControlSubsystem"
+				(path "/818e58fd-44df-4509-b8e7-a1b638858053"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5245,6 +5152,12 @@
 			(project "lineFollowerBasic"
 				(path "/751730cf-cec6-4b73-8a36-3b45eebd4e7c/a9133450-fd74-4167-87c2-16bc847bfd0a"
 					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+			(project "motorControlSubsystem"
+				(path "/818e58fd-44df-4509-b8e7-a1b638858053"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -5318,6 +5231,12 @@
 					(unit 1)
 				)
 			)
+			(project "motorControlSubsystem"
+				(path "/818e58fd-44df-4509-b8e7-a1b638858053"
+					(reference "C1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5383,6 +5302,12 @@
 					(unit 1)
 				)
 			)
+			(project "motorControlSubsystem"
+				(path "/818e58fd-44df-4509-b8e7-a1b638858053"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5404,12 +5329,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+15"
-			(at 99.06 63.5 0)
+		(property "Value" "+5"
+			(at 101.6 67.3099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -5446,6 +5372,12 @@
 			(project "lineFollowerBasic"
 				(path "/751730cf-cec6-4b73-8a36-3b45eebd4e7c/a9133450-fd74-4167-87c2-16bc847bfd0a"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+			(project "motorControlSubsystem"
+				(path "/818e58fd-44df-4509-b8e7-a1b638858053"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -5537,6 +5469,12 @@
 					(unit 1)
 				)
 			)
+			(project "motorControlSubsystem"
+				(path "/818e58fd-44df-4509-b8e7-a1b638858053"
+					(reference "D1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5607,6 +5545,12 @@
 					(unit 1)
 				)
 			)
+			(project "motorControlSubsystem"
+				(path "/818e58fd-44df-4509-b8e7-a1b638858053"
+					(reference "C3")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5628,12 +5572,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+15"
-			(at 158.75 97.79 0)
+		(property "Value" "+5"
+			(at 161.29 101.5999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -5670,6 +5615,12 @@
 			(project "lineFollowerBasic"
 				(path "/751730cf-cec6-4b73-8a36-3b45eebd4e7c/a9133450-fd74-4167-87c2-16bc847bfd0a"
 					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+			(project "motorControlSubsystem"
+				(path "/818e58fd-44df-4509-b8e7-a1b638858053"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -5780,6 +5731,12 @@
 					(unit 1)
 				)
 			)
+			(project "motorControlSubsystem"
+				(path "/818e58fd-44df-4509-b8e7-a1b638858053"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5843,6 +5800,12 @@
 			(project "lineFollowerBasic"
 				(path "/751730cf-cec6-4b73-8a36-3b45eebd4e7c/a9133450-fd74-4167-87c2-16bc847bfd0a"
 					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+			(project "motorControlSubsystem"
+				(path "/818e58fd-44df-4509-b8e7-a1b638858053"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -5916,6 +5879,12 @@
 					(unit 1)
 				)
 			)
+			(project "motorControlSubsystem"
+				(path "/818e58fd-44df-4509-b8e7-a1b638858053"
+					(reference "C4")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5937,12 +5906,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+15"
-			(at 105.41 63.5 0)
+		(property "Value" "+5"
+			(at 107.95 67.3099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -5982,6 +5952,12 @@
 					(unit 1)
 				)
 			)
+			(project "motorControlSubsystem"
+				(path "/818e58fd-44df-4509-b8e7-a1b638858053"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6003,12 +5979,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+15"
-			(at 144.78 30.48 0)
+		(property "Value" "+5"
+			(at 147.32 34.2899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -6045,6 +6022,12 @@
 			(project "lineFollowerBasic"
 				(path "/751730cf-cec6-4b73-8a36-3b45eebd4e7c/a9133450-fd74-4167-87c2-16bc847bfd0a"
 					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+			(project "motorControlSubsystem"
+				(path "/818e58fd-44df-4509-b8e7-a1b638858053"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -6124,6 +6107,12 @@
 					(unit 1)
 				)
 			)
+			(project "motorControlSubsystem"
+				(path "/818e58fd-44df-4509-b8e7-a1b638858053"
+					(reference "Q4")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6189,6 +6178,12 @@
 					(unit 1)
 				)
 			)
+			(project "motorControlSubsystem"
+				(path "/818e58fd-44df-4509-b8e7-a1b638858053"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6199,22 +6194,23 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c9f6f3fd-1bf5-4f92-a828-93b4384bb45d")
 		(property "Reference" "R1"
-			(at 92.71 78.74 90)
+			(at 94.996 78.486 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "4.7k"
-			(at 95.25 78.74 90)
+			(at 101.6 80.0099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
@@ -6253,6 +6249,12 @@
 		(instances
 			(project "lineFollowerBasic"
 				(path "/751730cf-cec6-4b73-8a36-3b45eebd4e7c/a9133450-fd74-4167-87c2-16bc847bfd0a"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+			(project "motorControlSubsystem"
+				(path "/818e58fd-44df-4509-b8e7-a1b638858053"
 					(reference "R1")
 					(unit 1)
 				)
@@ -6323,6 +6325,12 @@
 					(unit 1)
 				)
 			)
+			(project "motorControlSubsystem"
+				(path "/818e58fd-44df-4509-b8e7-a1b638858053"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6388,6 +6396,12 @@
 					(unit 1)
 				)
 			)
+			(project "motorControlSubsystem"
+				(path "/818e58fd-44df-4509-b8e7-a1b638858053"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6398,10 +6412,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d0f028fb-74bd-4b73-bdcd-857b6f815e20")
 		(property "Reference" "R2"
-			(at 99.06 78.74 90)
+			(at 108.204 78.486 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6456,20 +6469,26 @@
 					(unit 1)
 				)
 			)
+			(project "motorControlSubsystem"
+				(path "/818e58fd-44df-4509-b8e7-a1b638858053"
+					(reference "R2")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x06_Pin")
-		(at 274.32 95.25 0)
+		(at 267.97 91.44 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d9f4c01a-be4d-4da0-aee7-9c38650f059a")
 		(property "Reference" "J3"
-			(at 274.955 85.09 0)
+			(at 267.335 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6477,15 +6496,15 @@
 			)
 		)
 		(property "Value" "Conn_01x06_Pin"
-			(at 274.955 87.63 0)
+			(at 267.335 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 274.32 95.25 0)
+		(property "Footprint" "Connector_Molex:Molex_Mini-Fit_Jr_5566-06A2_2x03_P4.20mm_Vertical"
+			(at 267.97 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6494,7 +6513,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 274.32 95.25 0)
+			(at 267.97 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6503,7 +6522,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x06, script generated"
-			(at 274.32 95.25 0)
+			(at 267.97 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6533,6 +6552,12 @@
 			(project ""
 				(path "/751730cf-cec6-4b73-8a36-3b45eebd4e7c/a9133450-fd74-4167-87c2-16bc847bfd0a"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+			(project "motorControlSubsystem"
+				(path "/818e58fd-44df-4509-b8e7-a1b638858053"
+					(reference "Motor_DC")
 					(unit 1)
 				)
 			)
@@ -6612,6 +6637,12 @@
 					(unit 1)
 				)
 			)
+			(project "motorControlSubsystem"
+				(path "/818e58fd-44df-4509-b8e7-a1b638858053"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6633,12 +6664,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+15"
-			(at 160.02 30.48 0)
+		(property "Value" "+5"
+			(at 162.56 34.2899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -6675,6 +6707,12 @@
 			(project "lineFollowerBasic"
 				(path "/751730cf-cec6-4b73-8a36-3b45eebd4e7c/a9133450-fd74-4167-87c2-16bc847bfd0a"
 					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+			(project "motorControlSubsystem"
+				(path "/818e58fd-44df-4509-b8e7-a1b638858053"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -6766,6 +6804,12 @@
 					(unit 1)
 				)
 			)
+			(project "motorControlSubsystem"
+				(path "/818e58fd-44df-4509-b8e7-a1b638858053"
+					(reference "D2")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6830,6 +6874,12 @@
 			(project ""
 				(path "/751730cf-cec6-4b73-8a36-3b45eebd4e7c/a9133450-fd74-4167-87c2-16bc847bfd0a"
 					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+			(project "motorControlSubsystem"
+				(path "/818e58fd-44df-4509-b8e7-a1b638858053"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -6899,6 +6949,12 @@
 					(unit 1)
 				)
 			)
+			(project "motorControlSubsystem"
+				(path "/818e58fd-44df-4509-b8e7-a1b638858053"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6962,6 +7018,12 @@
 			(project "lineFollowerBasic"
 				(path "/751730cf-cec6-4b73-8a36-3b45eebd4e7c/a9133450-fd74-4167-87c2-16bc847bfd0a"
 					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+			(project "motorControlSubsystem"
+				(path "/818e58fd-44df-4509-b8e7-a1b638858053"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -7053,6 +7115,12 @@
 					(unit 1)
 				)
 			)
+			(project "motorControlSubsystem"
+				(path "/818e58fd-44df-4509-b8e7-a1b638858053"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7118,6 +7186,17 @@
 					(unit 1)
 				)
 			)
+			(project "motorControlSubsystem"
+				(path "/818e58fd-44df-4509-b8e7-a1b638858053"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
 		)
 	)
 )
